@@ -1,3 +1,49 @@
 body {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 300px;
+    height: 450px;
     background-color: darkred;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 150px auto;
+}
+
+.calculations {
+    width: 80%;
+    height: 75px;
+    background-color: #383838;
+    color: white;
+    font-size: 40px;
+    border-radius: 25%;
+}
+
+.calculations p {
+    text-align: right;
+    vertical-align: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 0 black;
+    margin: 5px;
+}
+
+.NumberButton {
+    background-color: #153184;
+}
+
+.SpecialButton {
+    background-color: #375bc8;
+}
+
+.OperatorButton {
+    background-color: #28a0bd;
 }
