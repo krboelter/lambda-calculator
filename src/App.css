@@ -36,6 +36,26 @@ button {
     margin: 5px;
 }
 
+.calcButtons {
+    display: flex;
+}
+
+.specBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.numBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .NumberButton {
     background-color: #153184;
 }
