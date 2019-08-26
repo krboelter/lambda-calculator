@@ -21,11 +21,13 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <div className='calculations'><p>0</p></div>
-        <div className='clacButtons'>
-          <Specials />
+        <div className='calculations'><div>0</div></div>
+        <div className='calcButtons'>
+          <div className='section-one'>
+            <Specials />
+            <Numbers />
+          </div>
           <Operators />
-          <Numbers />
         </div>
       </div>
     </div>

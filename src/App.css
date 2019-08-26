@@ -3,32 +3,36 @@ body {
     margin: 0 auto;
 }
 
+.app {
+    margin: 0 auto;
+}
+
 .container {
     width: 300px;
     height: 450px;
     background-color: darkred;
-    padding: 15px;
+    padding: 20px;
     border-radius: 12px;
     margin: 150px auto;
 }
 
 .calculations {
-    width: 80%;
-    height: 75px;
+    width: 100%;
+    padding: 10px 0;
     background-color: #383838;
     color: white;
     font-size: 40px;
-    border-radius: 25%;
+    border-radius: 40px;
 }
 
-.calculations p {
-    text-align: right;
-    vertical-align: center;
+.calculations div {
+    direction: rtl;
+    padding: 0 15px;
 }
 
 button {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     color: white;
     border: none;
     border-radius: 50%;
@@ -36,8 +40,15 @@ button {
     margin: 5px;
 }
 
+button:nth-child(10) {
+    width: 130px;
+    border-radius: 30px;
+}
+
 .calcButtons {
     display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
 }
 
 .specBtn {
@@ -48,12 +59,17 @@ button {
 .opBtn {
     display: flex;
     flex-direction: column;
+    width: 20%;
 }
 
 .numBtn {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.section-one {
+    width: 73%;
 }
 
 .NumberButton {
