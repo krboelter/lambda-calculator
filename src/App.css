@@ -1,0 +1,85 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.app {
+    margin: 0 auto;
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    background-color: darkred;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 150px auto;
+}
+
+.calculations {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #383838;
+    color: white;
+    font-size: 40px;
+    border-radius: 40px;
+}
+
+.calculations div {
+    direction: rtl;
+    padding: 0 15px;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 0 black;
+    margin: 5px;
+}
+
+button:nth-child(10) {
+    width: 130px;
+    border-radius: 30px;
+}
+
+.calcButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+
+.specBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opBtn {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.numBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-one {
+    width: 73%;
+}
+
+.NumberButton {
+    background-color: #153184;
+}
+
+.SpecialButton {
+    background-color: #375bc8;
+}
+
+.OperatorButton {
+    background-color: #28a0bd;
+}
